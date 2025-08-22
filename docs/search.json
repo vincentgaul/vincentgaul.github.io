@@ -1,16 +1,86 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "vincentgaul",
+    "objectID": "CLAUDE.html",
+    "href": "CLAUDE.html",
+    "title": "CLAUDE.md",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.\n\n\nThis is a Quarto website project for vincentgaul.github.io - a personal website for Vincent Gaul, a biochemist in the pharmaceutical industry who works as a data scientist. The site is built using Quarto, a scientific and technical publishing system.\n\n\n\n\n\n\nquarto render - Build the entire website (outputs to /docs directory)\nquarto preview - Start development server with live reload (automatically reloads on file changes)\nquarto preview --no-browser - Preview without opening browser\nquarto preview --port 4444 - Preview on specific port\n\n\n\n\n\nquarto render index.qmd - Render single file\nquarto render about.qmd --to html - Render with specific format\n\n\n\n\n\n\n_quarto.yml - Main configuration file defining website structure, theme (cosmo), and navbar\nindex.qmd - Homepage content file\nabout.qmd - About page content file\n\nstyles.css - Custom CSS styles\n/docs - Output directory where rendered HTML files are generated (published to GitHub Pages)\n/docs/site_libs - Generated assets (Bootstrap, Quarto JS/CSS, search functionality)\n\n\n\n\nThe website uses: - Theme: Cosmo Bootstrap theme - Output Directory: /docs (configured for GitHub Pages hosting) - Navigation: Simple navbar with Home and About links - Features: Table of contents enabled, custom CSS styling\n\n\n\nContent is written in Quarto Markdown (.qmd) files with YAML frontmatter for metadata. The website automatically rebuilds when content files are modified during preview mode."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "CLAUDE.html#project-overview",
+    "href": "CLAUDE.html#project-overview",
+    "title": "CLAUDE.md",
     "section": "",
-    "text": "About this site"
+    "text": "This is a Quarto website project for vincentgaul.github.io - a personal website for Vincent Gaul, a biochemist in the pharmaceutical industry who works as a data scientist. The site is built using Quarto, a scientific and technical publishing system."
+  },
+  {
+    "objectID": "CLAUDE.html#development-commands",
+    "href": "CLAUDE.html#development-commands",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "quarto render - Build the entire website (outputs to /docs directory)\nquarto preview - Start development server with live reload (automatically reloads on file changes)\nquarto preview --no-browser - Preview without opening browser\nquarto preview --port 4444 - Preview on specific port\n\n\n\n\n\nquarto render index.qmd - Render single file\nquarto render about.qmd --to html - Render with specific format"
+  },
+  {
+    "objectID": "CLAUDE.html#project-structure",
+    "href": "CLAUDE.html#project-structure",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "_quarto.yml - Main configuration file defining website structure, theme (cosmo), and navbar\nindex.qmd - Homepage content file\nabout.qmd - About page content file\n\nstyles.css - Custom CSS styles\n/docs - Output directory where rendered HTML files are generated (published to GitHub Pages)\n/docs/site_libs - Generated assets (Bootstrap, Quarto JS/CSS, search functionality)"
+  },
+  {
+    "objectID": "CLAUDE.html#configuration-details",
+    "href": "CLAUDE.html#configuration-details",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "The website uses: - Theme: Cosmo Bootstrap theme - Output Directory: /docs (configured for GitHub Pages hosting) - Navigation: Simple navbar with Home and About links - Features: Table of contents enabled, custom CSS styling"
+  },
+  {
+    "objectID": "CLAUDE.html#content-editing",
+    "href": "CLAUDE.html#content-editing",
+    "title": "CLAUDE.md",
+    "section": "",
+    "text": "Content is written in Quarto Markdown (.qmd) files with YAML frontmatter for metadata. The website automatically rebuilds when content files are modified during preview mode."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "ChromaAnalyzer is a Windows application used for Transitional Analysis (TA) of chromatography data generated in the pharmaceutical industry.\nTA is a non-intrusive, in-process method for evaluating packed-column performance. Instead of resource-intensive, point-in-time measurements of resin integrity, ChromaAnalyzer can provide near real time performance metrics.\nTraditionally the use of TA has required specialist expertise in signal processing and custom code or expensive subscriptions to commercial software. ChromaAnalyzer avoids both."
+  },
+  {
+    "objectID": "projects.html#chromaanalyzer",
+    "href": "projects.html#chromaanalyzer",
+    "title": "Projects",
+    "section": "",
+    "text": "ChromaAnalyzer is a Windows application used for Transitional Analysis (TA) of chromatography data generated in the pharmaceutical industry.\nTA is a non-intrusive, in-process method for evaluating packed-column performance. Instead of resource-intensive, point-in-time measurements of resin integrity, ChromaAnalyzer can provide near real time performance metrics.\nTraditionally the use of TA has required specialist expertise in signal processing and custom code or expensive subscriptions to commercial software. ChromaAnalyzer avoids both."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vincent Gaul",
+    "section": "",
+    "text": "PhD Biochemist with experience in biopharmaceutical manufacturing, data science, and software development. Expertise in cell culture, purification, and analytical methods. R first data scientist with working knowledge of python, JavaScript, and other languages."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Vincent Gaul",
+    "section": "",
+    "text": "I am a biochemist in the pharmaceutical industry bridging the gap between life science and data science. I have a PhD in biochemistry and have previously worked in technical services roles providing support to commercial scale manufacturing in both sustaining and tech transfer environments. I now work as a data scientist where I seek to leverage manufacturing data to drive insights and improvements."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Vincent Gaul",
+    "section": "Welcome",
+    "text": "Welcome\nWelcome to my website where I will share insights about the intersection of biochemistry, data science, and pharmaceutical manufacturing."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Vincent Gaul",
+    "section": "",
+    "text": "PhD Biochemist with experience in biopharmaceutical manufacturing, data science, and software development. Expertise in cell culture, purification, and analytical methods. R first data scientist with working knowledge of python, JavaScript, and other languages."
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Vincent Gaul</title>
+<title>claude – Vincent Gaul</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -89,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -110,47 +111,89 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#claude.md" id="toc-claude.md" class="nav-link active" data-scroll-target="#claude.md">CLAUDE.md</a>
+  <ul class="collapse">
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">Project Overview</a></li>
+  <li><a href="#development-commands" id="toc-development-commands" class="nav-link" data-scroll-target="#development-commands">Development Commands</a>
+  <ul class="collapse">
+  <li><a href="#build-and-preview" id="toc-build-and-preview" class="nav-link" data-scroll-target="#build-and-preview">Build and Preview</a></li>
+  <li><a href="#individual-file-operations" id="toc-individual-file-operations" class="nav-link" data-scroll-target="#individual-file-operations">Individual File Operations</a></li>
+  </ul></li>
+  <li><a href="#project-structure" id="toc-project-structure" class="nav-link" data-scroll-target="#project-structure">Project Structure</a></li>
+  <li><a href="#configuration-details" id="toc-configuration-details" class="nav-link" data-scroll-target="#configuration-details">Configuration Details</a></li>
+  <li><a href="#content-editing" id="toc-content-editing" class="nav-link" data-scroll-target="#content-editing">Content Editing</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="https://media.licdn.com/dms/image/v2/C4E03AQE0m3S9JiLDnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663351828081?e=1758758400&amp;v=beta&amp;t=nMRKsULxEVShmz93QlY23azvgoo74bwo0-JVlvS4oMc" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Vincent Gaul</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/your-profile-url" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/vincentgaul" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<section id="about" class="level2">
-<h2 data-anchor-id="about">About</h2>
-<p>PhD Biochemist with experience in biopharmaceutical manufacturing, data science, and software development. Expertise in cell culture, purification, and analytical methods. R first data scientist with working knowledge of python, JavaScript, and other languages.</p>
+
+
+
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This is a Quarto website project for vincentgaul.github.io - a personal website for Vincent Gaul, a biochemist in the pharmaceutical industry who works as a data scientist. The site is built using Quarto, a scientific and technical publishing system.</p>
+</section>
+<section id="development-commands" class="level2">
+<h2 class="anchored" data-anchor-id="development-commands">Development Commands</h2>
+<section id="build-and-preview" class="level3">
+<h3 class="anchored" data-anchor-id="build-and-preview">Build and Preview</h3>
+<ul>
+<li><code>quarto render</code> - Build the entire website (outputs to <code>/docs</code> directory)</li>
+<li><code>quarto preview</code> - Start development server with live reload (automatically reloads on file changes)</li>
+<li><code>quarto preview --no-browser</code> - Preview without opening browser</li>
+<li><code>quarto preview --port 4444</code> - Preview on specific port</li>
+</ul>
+</section>
+<section id="individual-file-operations" class="level3">
+<h3 class="anchored" data-anchor-id="individual-file-operations">Individual File Operations</h3>
+<ul>
+<li><code>quarto render index.qmd</code> - Render single file</li>
+<li><code>quarto render about.qmd --to html</code> - Render with specific format</li>
+</ul>
+</section>
+</section>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<ul>
+<li><code>_quarto.yml</code> - Main configuration file defining website structure, theme (cosmo), and navbar</li>
+<li><code>index.qmd</code> - Homepage content file</li>
+<li><code>about.qmd</code> - About page content file<br>
+</li>
+<li><code>styles.css</code> - Custom CSS styles</li>
+<li><code>/docs</code> - Output directory where rendered HTML files are generated (published to GitHub Pages)</li>
+<li><code>/docs/site_libs</code> - Generated assets (Bootstrap, Quarto JS/CSS, search functionality)</li>
+</ul>
+</section>
+<section id="configuration-details" class="level2">
+<h2 class="anchored" data-anchor-id="configuration-details">Configuration Details</h2>
+<p>The website uses: - <strong>Theme</strong>: Cosmo Bootstrap theme - <strong>Output Directory</strong>: <code>/docs</code> (configured for GitHub Pages hosting) - <strong>Navigation</strong>: Simple navbar with Home and About links - <strong>Features</strong>: Table of contents enabled, custom CSS styling</p>
+</section>
+<section id="content-editing" class="level2">
+<h2 class="anchored" data-anchor-id="content-editing">Content Editing</h2>
+<p>Content is written in Quarto Markdown (<code>.qmd</code>) files with YAML frontmatter for metadata. The website automatically rebuilds when content files are modified during preview mode.</p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

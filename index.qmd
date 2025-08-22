@@ -1,9 +1,19 @@
 ---
-title: "vincentgaul"
+title: "Vincent Gaul"
+image: "https://media.licdn.com/dms/image/v2/C4E03AQE0m3S9JiLDnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663351828081?e=1758758400&v=beta&t=nMRKsULxEVShmz93QlY23azvgoo74bwo0-JVlvS4oMc"
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      url: "https://www.linkedin.com/in/your-profile-url"
+    - icon: github
+      url: "https://github.com/vincentgaul"
+comments: false
 ---
 
-This is a Quarto website.
+## About
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+PhD Biochemist with experience in biopharmaceutical manufacturing, data science, and software development. Expertise in cell culture, purification, and analytical methods. R first data scientist with working knowledge of python, JavaScript, and other languages.
 
-I will post here
+
+

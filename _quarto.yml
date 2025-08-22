@@ -3,16 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "vincentgaul"
+  title: "Vincent Gaul"
+  site-url: https://vincentgaul.github.io
+  description: "Biochemist bridging life science and data science"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Projects"
+        href: projects.html
+  page-footer:
+    left: "© Copyright 2024 Vincent Gaul. All rights reserved."
 
 format:
   html:
-    theme: cosmo
+    theme: [sandstone, _variables.scss]
     css: styles.css
     toc: true
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Vincent Gaul</title>
+<title>Projects – Vincent Gaul</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -89,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -110,47 +111,60 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#chromaanalyzer" id="toc-chromaanalyzer" class="nav-link active" data-scroll-target="#chromaanalyzer">ChromaAnalyzer</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="https://media.licdn.com/dms/image/v2/C4E03AQE0m3S9JiLDnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663351828081?e=1758758400&amp;v=beta&amp;t=nMRKsULxEVShmz93QlY23azvgoo74bwo0-JVlvS4oMc" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Vincent Gaul</h1>
+<h1 class="title">Projects</h1>
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/your-profile-url" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/vincentgaul" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="about" class="level2">
-<h2 data-anchor-id="about">About</h2>
-<p>PhD Biochemist with experience in biopharmaceutical manufacturing, data science, and software development. Expertise in cell culture, purification, and analytical methods. R first data scientist with working knowledge of python, JavaScript, and other languages.</p>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="chromaanalyzer" class="level2">
+<h2 class="anchored" data-anchor-id="chromaanalyzer"><a href="https://www.chromaanalyzer.com">ChromaAnalyzer</a></h2>
+<div class="project-layout">
+<div class="project-image">
+<p><img src="images/projects/ChromaAnalyzer Logo.png" class="img-fluid" width="200"></p>
+</div>
+<div class="project-text">
+<p>ChromaAnalyzer is a Windows application used for Transitional Analysis (TA) of chromatography data generated in the pharmaceutical industry.</p>
+<p>TA is a non-intrusive, in-process method for evaluating packed-column performance. Instead of resource-intensive, point-in-time measurements of resin integrity, ChromaAnalyzer can provide near real time performance metrics.</p>
+<p>Traditionally the use of TA has required specialist expertise in signal processing and custom code or expensive subscriptions to commercial software. ChromaAnalyzer avoids both.</p>
+</div>
+</div>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
