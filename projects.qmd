@@ -17,3 +17,20 @@ Traditionally the use of TA has required specialist expertise in signal processi
 
 :::
 :::
+
+## [VintScout](https://github.com/vincentgaul/VintScout)
+
+::: {.project-layout}
+::: {.project-image}
+![](images/projects/VintScout%20Logo.png){width=200px}
+:::
+
+::: {.project-text}
+VintScout is a self-hosted web application for monitoring Vinted marketplaces. Vinted does not support notifications, so VintScout creates custom alerts and sends notifications when new items matching your criteria are listed.
+
+The app features smart search with autocomplete brand search, visual category tree navigation, and condition filters. It supports monitoring across 20+ European Vinted marketplaces with instant Telegram notifications when matches are found.
+
+VintScout is designed for self-hosting with complete data control and includes one-command deployment with Docker Compose. Future development includes email notifications, size and color filters, and improved mobile responsiveness.
+
+:::
+:::

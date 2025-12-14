@@ -1,11 +1,11 @@
 ---
 title: "Vincent Gaul"
-image: "https://media.licdn.com/dms/image/v2/C4E03AQE0m3S9JiLDnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663351828081?e=1758758400&v=beta&t=nMRKsULxEVShmz93QlY23azvgoo74bwo0-JVlvS4oMc"
+image: "https://media.licdn.com/dms/image/v2/C4E03AQE0m3S9JiLDnQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1663351828081?e=1767225600&v=beta&t=lcJZ_kRMJGdk9vvz134t24R0nOjKOgZqNKE8LbwQj5Q"
 about:
   template: trestles
   links:
     - icon: linkedin
-      url: "https://www.linkedin.com/in/your-profile-url"
+      url: "https://www.linkedin.com/in/vincentgaul/"
     - icon: github
       url: "https://github.com/vincentgaul"
 comments: false
